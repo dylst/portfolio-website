@@ -19,19 +19,13 @@ import {
   SectionText,
   SectionTitle,
 } from '../../styles/GlobalComponents';
-import {
-  List,
-  ListContainer,
-  ListItem,
-  ListParagraph,
-  ListTitle,
-} from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () => (
   <Section id='tech'>
     <SectionDivider divider />
-    <SectionTitle>Skills and Technologies</SectionTitle>
-    <SectionText>I'm always happy and willing to learn more.</SectionText>
+    <SectionTitle>Skills {'&'} Technologies</SectionTitle>
+    <SectionText>I am always happy and willing to learn more.</SectionText>
     <List>
       <ListItem>
         <picture>
