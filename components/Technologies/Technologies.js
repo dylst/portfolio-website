@@ -30,7 +30,7 @@ import {
 const Technologies = () => (
   <Section id='tech'>
     <SectionDivider divider />
-    <SectionTitle>Skills {'&'} Technologies</SectionTitle>
+    <SectionTitle>Skills & Technologies</SectionTitle>
     <SectionText>I'm always happy and willing to learn more.</SectionText>
     <List>
       <ListItem>
