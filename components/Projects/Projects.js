@@ -45,11 +45,11 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>
+              <ExternalLinks href={p.visit} target='_blank'>
                 <BsBoxArrowUpRight />
                 Demo
               </ExternalLinks>
-              <ExternalLinks href={p.source}>
+              <ExternalLinks href={p.source} target='_blank'>
                 <FiCode size='2rem' />
                 Code
               </ExternalLinks>

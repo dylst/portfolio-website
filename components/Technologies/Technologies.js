@@ -4,7 +4,9 @@ import {
   SiCss3,
   SiNextdotjs,
   SiJavascript,
+  SiTypescript,
   SiMaterialui,
+  SiTailwindcss,
   SiReact,
   SiStripe,
   SiSwiper,
@@ -12,6 +14,7 @@ import {
   SiGit,
   SiGithub,
   SiNpm,
+  SiFirebase,
 } from 'react-icons/si';
 import {
   Section,
@@ -61,13 +64,28 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <picture>
+          <SiTypescript size='3rem' />
+        </picture>
+        <ListContainer>
+          <ListTitle>TypeScript</ListTitle>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
           <SiNextdotjs size='3rem' />
         </picture>
         <ListContainer>
           <ListTitle>Next.js</ListTitle>
         </ListContainer>
       </ListItem>
-
+      <ListItem>
+        <picture>
+          <SiTailwindcss size='3rem' />
+        </picture>
+        <ListContainer>
+          <ListTitle>Tailwind CSS</ListTitle>
+        </ListContainer>
+      </ListItem>
       <ListItem>
         <picture>
           <SiMaterialui size='3rem' />
@@ -94,7 +112,14 @@ const Technologies = () => (
           <ListTitle>Stripe</ListTitle>
         </ListContainer>
       </ListItem>
-
+      <ListItem>
+        <picture>
+          <SiFirebase size='3rem' />
+        </picture>
+        <ListContainer>
+          <ListTitle>Firebase</ListTitle>
+        </ListContainer>
+      </ListItem>
       <ListItem>
         <picture>
           <SiPython size='3rem' />
