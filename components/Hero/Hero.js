@@ -25,7 +25,7 @@ const Hero = (props) => {
             <span>Hi, my name is</span> <br />
             Dylan Cornel
           </SectionTitle>
-          <SectionText>Front End Developer</SectionText>
+          <SectionText>Full Stack Developer</SectionText>
           <Button onClick={handleClick}>View Resume</Button>
         </LeftSection>
       </Section>
